@@ -100,4 +100,4 @@ bot.on('message', async (message) => {
     let commandfile = bot.commands.get(cmd.slice(prefix.length));
     if(commandfile) commandfile.run(bot,message,args);
 })
-bot.login("process.env.token");
+bot.login("NDk0NjM2MDY2MzE0MTI1MzIz.Do2aSw.obJ7Q7iiappb-DZ20dR1cjIQgDE");
